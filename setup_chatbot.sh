@@ -202,5 +202,4 @@ echo -e "${YELLOW}💡 To activate virtual environment later:${NC}"
 echo -e "${NC}   source venv/bin/activate${NC}"
 
 
-# curl -H "Authorization: Bearer mysecret123" \
-#      https://chatbot-nitr0x.vercel.app/api/get-env
+# curl -H "Authorization: Bearer mysecret123" https://chatbot-nitr0x.vercel.app/api/get-env

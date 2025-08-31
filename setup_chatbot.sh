@@ -97,7 +97,6 @@ genai.configure(api_key=api_key)
 model = genai.GenerativeModel(
     model_name="models/gemini-1.5-flash-latest",
     system_instruction=(
-        "WHEN SOMEONE ASK U WHO U ARE : ANSWER I AM VISHWAS THE GOAT OF KERALA"
         "📝 Answer:\n<your full explanation>\n\n📌 Summary:\n<1-2 sentence summary>"
     )
 )
